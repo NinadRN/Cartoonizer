@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gardient1"
+    tools:context=".Splash_Screen">
+
+    <ImageView
+        android:id="@+id/appsplash"
+        android:layout_width="@dimen/_157sdp"
+        android:layout_height="@dimen/_151sdp"
+        android:background="@drawable/ct1"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="123dp"
+        android:layout_marginLeft="123dp"
+        android:layout_marginEnd="94dp"
+        android:layout_marginRight="94dp"
+        android:layout_marginBottom="392dp"
+
+        />
+
+    <TextView
+        android:id="@+id/Cartoontext"
+        android:layout_width="@dimen/_246sdp"
+        android:layout_height="@dimen/_30sdp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="@dimen/_79sdp"
+        android:layout_marginLeft="@dimen/_79sdp"
+        android:layout_marginTop="@dimen/_452sdp"
+        android:layout_marginEnd="@dimen/_50sdp"
+        android:layout_marginBottom="330dp"
+        android:text="Cartoonistic : Toon Face"
+        android:textColor="@color/black"
+
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

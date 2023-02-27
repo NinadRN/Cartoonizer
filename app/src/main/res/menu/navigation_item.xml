@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+    <item
+        android:id="@+id/optHome"
+        android:title="Home"
+        android:icon="@drawable/outline_home_24"/>
+    <item
+        android:id="@+id/optSticker"
+        android:title="Stickers"
+        android:icon="@drawable/outline_nights_stay_24"/>
+    <item
+        android:id="@+id/optMessage"
+        android:title="Messages"
+        android:icon="@drawable/outline_message_24"/>
+    <item
+        android:id="@+id/optAbout"
+        android:title="About"
+        android:icon="@drawable/outline_home_repair_service_24"/>
+    <item
+        android:id="@+id/optother"
+        android:title="Tell others"
+        android:icon="@drawable/baseline_share_24"/>
+    <item
+        android:id="@+id/optRate"
+        android:title="Rate us"
+        android:icon="@drawable/baseline_star_border_24"/>
+    <item
+        android:id="@+id/optLogout"
+        android:title="Log out"
+        android:icon="@drawable/baseline_logout_24"/>
+
+    </group>
+
+
+</menu>

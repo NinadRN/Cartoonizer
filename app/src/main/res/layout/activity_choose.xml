@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChooseActivity"
+    tools:menu="@menu/navigation_item">
+
+    <include layout="@layout/bg1"/>
+    <include layout="@layout/appbar"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/featuretext"
+                android:layout_width="@dimen/_79sdp"
+                android:layout_height="@dimen/_40sdp"
+                android:gravity="center"
+                android:paddingLeft="4dp"
+                android:layout_marginLeft="@dimen/_24sdp"
+                android:layout_marginTop="@dimen/_76sdp"
+                android:drawableLeft="@drawable/outline_tag_faces_24"
+                android:text="Featured"
+                android:textColor="#ACB8C2" />
+
+            <TextView
+                android:id="@+id/cartooncharm"
+                android:layout_width="385sp"
+                android:layout_height="45sp"
+                android:layout_marginTop="@dimen/_108sdp"
+                android:fontFamily="@font/nunito_sans_bold"
+                android:lineHeight="@dimen/_45sdp"
+                android:text="Cartoon Charm"
+                android:textColor="#191D21"
+                android:textSize="40sp" />
+
+
+            <ImageView
+                android:id="@+id/girlimage"
+                android:layout_width="@dimen/_307sdp"
+                android:layout_height="@dimen/_307sdp"
+                android:layout_marginTop="@dimen/_40sdp"
+                android:layout_below="@id/cartooncharm"
+                android:background="@drawable/chooseimage"/>
+
+            <Button
+                android:id="@+id/ChoosePht"
+                android:layout_width="@dimen/_200sdp"
+                android:layout_height="@dimen/_50sdp"
+                android:text="Choose a Photo"
+                android:textColor="#FFFFFF"
+                android:layout_below="@id/girlimage"
+                android:background="@drawable/button_bg"
+                app:circularflow_defaultRadius="@dimen/_15sdp"
+                android:layout_marginTop="@dimen/_40sdp"
+                android:layout_marginLeft="@dimen/_81sdp"
+                android:layout_marginRight="@dimen/_82sdp"
+                android:gravity="center"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:layout_editor_absoluteY="689dp" />
+
+
+            <Button
+                android:id="@+id/roundbutton"
+                android:layout_width="@dimen/_64sdp"
+                android:layout_height="@dimen/_64sdp"
+                android:layout_below="@id/ChoosePht"
+                android:background="@drawable/buttonarrow"
+                android:gravity="center"
+                android:text=">"
+                android:layout_marginTop="@dimen/_109sdp"
+                android:layout_marginLeft="@dimen/_125sdp"/>
+
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

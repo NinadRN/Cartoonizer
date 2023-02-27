@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "363952863291",
+    "project_id": "cartoon-apk",
+    "storage_bucket": "cartoon-apk.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:363952863291:android:ef6a0be83b6df3825d041e",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "363952863291-rq8p3edjnusdk0hpnr67ii59o8sf04pk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGRumOW4UXFGNNG4AOIvw5Hxg5EYskOzs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "363952863291-rq8p3edjnusdk0hpnr67ii59o8sf04pk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

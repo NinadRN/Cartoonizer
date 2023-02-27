@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:openDrawer="start"
+    android:id="@+id/drawerlayout"
+    tools:context=".LoginDashboard"
+    android:elevation="30dp"
+
+    >
+
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/navigationView"
+        android:layout_width="250dp"
+        android:layout_height="837dp"
+        android:layout_gravity="start"
+        android:fitsSystemWindows="true"
+        app:headerLayout="@layout/header_layout"
+        app:menu="@menu/navigation_item"/>
+
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+
+        <include layout="@layout/appbar" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <ImageButton
+                    android:id="@+id/cartoon1"
+                    android:layout_width="@dimen/_343sdp"
+                    android:layout_height="@dimen/_181sdp"
+                    android:contextClickable="true"
+                    android:layout_marginTop="@dimen/_176sdp"
+                    android:layout_marginLeft="@dimen/_16sdp"
+                    android:layout_marginRight="@dimen/_16sdp"
+
+                    android:background="@drawable/cartoon_bg_1"
+                    />
+
+                <ImageButton
+                    android:id="@+id/cartoon2"
+                    android:layout_width="163dp"
+                    android:layout_height="174dp"
+                    android:layout_below="@id/cartoon1"
+                    android:background="@drawable/cartoon_3"
+                    android:contextClickable="true"
+                    android:layout_marginTop="20.5dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="195dp"
+                    android:layout_marginBottom="552dp"/>
+                <ImageButton
+                    android:id="@+id/cartoon2.0"
+                    android:layout_width="106dp"
+                    android:layout_height="103dp"
+                    android:background="@drawable/cartoon_4"
+                    android:layout_below="@id/cartoon1"
+                    android:layout_marginTop="87dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="229dp"
+                    android:layout_marginBottom="556dp"/>
+
+
+                <ImageButton
+                    android:id="@+id/cartoon3"
+                    android:layout_width="163dp"
+                    android:layout_height="196dp"
+                    android:contextClickable="true"
+                    android:layout_below="@id/cartoon1"
+                    android:background="@drawable/cartoon1bg"
+                    android:layout_marginTop="20.5dp"
+                    android:layout_marginLeft="195dp"
+                    android:layout_marginBottom="530dp"
+                    android:layout_marginRight="16dp"/>
+                <ImageButton
+                    android:id="@+id/cartoon3.0"
+                    android:layout_width="112dp"
+                    android:layout_height="111dp"
+                    android:background="@drawable/cartoon5"
+                    android:layout_below="@id/cartoon1"
+                    android:layout_marginTop="105dp"
+                    android:layout_marginLeft="219sp"
+                    android:layout_marginRight="44dp"
+                    android:layout_marginBottom="530dp"/>
+
+
+
+
+
+
+
+            </RelativeLayout>
+        </ScrollView>
+
+
+    </RelativeLayout>
+
+</androidx.drawerlayout.widget.DrawerLayout>
